@@ -6,7 +6,8 @@
 //
 
 import UIKit
-
+import GoogleMobileAds
+import YandexMobileMetrica
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,7 +15,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+        let configuration = YMMYandexMetricaConfiguration.init(apiKey: "67a608c2-64f8-433c-b7be-951daf85e5c9")
+          YMMYandexMetrica.activate(with: configuration!)
         return true
     }
 

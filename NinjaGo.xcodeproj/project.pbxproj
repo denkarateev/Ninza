@@ -3,29 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F55149E25362DB6002CFEF4 /* AdConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55149D25362DB6002CFEF4 /* AdConfig.swift */; };
+		2F5CBF5F25320E8400852658 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBF5E25320E8400852658 /* HUD.swift */; };
 		2F64712C2530BB740044A799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64712B2530BB740044A799 /* AppDelegate.swift */; };
-		2F64712E2530BB740044A799 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F64712D2530BB740044A799 /* GameScene.sks */; };
-		2F6471302530BB740044A799 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2F64712F2530BB740044A799 /* Actions.sks */; };
 		2F6471322530BB740044A799 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6471312530BB740044A799 /* GameScene.swift */; };
 		2F6471342530BB740044A799 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6471332530BB740044A799 /* GameViewController.swift */; };
 		2F6471372530BB740044A799 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F6471352530BB740044A799 /* Main.storyboard */; };
 		2F6471392530BB770044A799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6471382530BB770044A799 /* Assets.xcassets */; };
+		2F6471492530BFBF0044A799 /* SKColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6471482530BFBF0044A799 /* SKColor+Ext.swift */; };
+		2F64714F2530C0CA0044A799 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64714E2530C0CA0044A799 /* Ground.swift */; };
+		2F6471532530C5FD0044A799 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6471522530C5FD0044A799 /* Player.swift */; };
+		2F647156253117FE0044A799 /* Ext+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F647155253117FE0044A799 /* Ext+CGFloat.swift */; };
+		2F64715B25311BF00044A799 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64715A25311BF00044A799 /* Cloud.swift */; };
+		2F64715F2531225D0044A799 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64715E2531225D0044A799 /* Types.swift */; };
+		2F6C313B25332D170038A5BF /* Krungthep.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBF612532105100852658 /* Krungthep.ttf */; };
+		2F6C313E253387100038A5BF /* ScoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C313D253387100038A5BF /* ScoreGenerator.swift */; };
+		556FDF259BCFA437E96B6DCC /* Pods_NinjaGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4ABD4962F0C1737132D62A /* Pods_NinjaGo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F55149D25362DB6002CFEF4 /* AdConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConfig.swift; sourceTree = "<group>"; };
+		2F5CBF5E25320E8400852658 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		2F5CBF612532105100852658 /* Krungthep.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Krungthep.ttf; sourceTree = "<group>"; };
 		2F6471282530BB740044A799 /* NinjaGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F64712B2530BB740044A799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F64712D2530BB740044A799 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		2F64712F2530BB740044A799 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2F6471312530BB740044A799 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2F6471332530BB740044A799 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2F6471362530BB740044A799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F6471382530BB770044A799 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F64713A2530BB770044A799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F6471482530BFBF0044A799 /* SKColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKColor+Ext.swift"; sourceTree = "<group>"; };
+		2F64714E2530C0CA0044A799 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		2F6471522530C5FD0044A799 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2F647155253117FE0044A799 /* Ext+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+CGFloat.swift"; sourceTree = "<group>"; };
+		2F64715A25311BF00044A799 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		2F64715E2531225D0044A799 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		2F6C313D253387100038A5BF /* ScoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGenerator.swift; sourceTree = "<group>"; };
+		3678E420A5572DAEBD1EE133 /* Pods-NinjaGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaGo.release.xcconfig"; path = "Target Support Files/Pods-NinjaGo/Pods-NinjaGo.release.xcconfig"; sourceTree = "<group>"; };
+		7B4ABD4962F0C1737132D62A /* Pods_NinjaGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinjaGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C717BA09D489FFCFC2836F56 /* Pods-NinjaGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaGo.debug.xcconfig"; path = "Target Support Files/Pods-NinjaGo/Pods-NinjaGo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556FDF259BCFA437E96B6DCC /* Pods_NinjaGo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E7C3ED53E6A02366A9E2E4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C717BA09D489FFCFC2836F56 /* Pods-NinjaGo.debug.xcconfig */,
+				3678E420A5572DAEBD1EE133 /* Pods-NinjaGo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2F55149C25362D91002CFEF4 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2F55149D25362DB6002CFEF4 /* AdConfig.swift */,
+			);
+			name = Config;
+			path = MyUtils/Config;
+			sourceTree = "<group>";
+		};
+		2F5CBF622532105E00852658 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2F5CBF612532105100852658 /* Krungthep.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2F64711F2530BB740044A799 = {
 			isa = PBXGroup;
 			children = (
 				2F64712A2530BB740044A799 /* NinjaGo */,
 				2F6471292530BB740044A799 /* Products */,
+				2E7C3ED53E6A02366A9E2E4A /* Pods */,
+				CBF6EC5C33D010B31762DD34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +108,88 @@
 			isa = PBXGroup;
 			children = (
 				2F64712B2530BB740044A799 /* AppDelegate.swift */,
-				2F64712D2530BB740044A799 /* GameScene.sks */,
-				2F64712F2530BB740044A799 /* Actions.sks */,
-				2F6471312530BB740044A799 /* GameScene.swift */,
-				2F6471332530BB740044A799 /* GameViewController.swift */,
+				2F5CBF622532105E00852658 /* Fonts */,
+				2F64715D2531223D0044A799 /* Types */,
+				2F55149C25362D91002CFEF4 /* Config */,
+				2F64714B2530BFCE0044A799 /* MyUtils */,
+				2F6471452530BC260044A799 /* Scenes */,
+				2F6471432530BC160044A799 /* Controllers */,
+				2F6471422530BBF70044A799 /* Resources */,
+				2F6471412530BBDB0044A799 /* New Group */,
+			);
+			path = NinjaGo;
+			sourceTree = "<group>";
+		};
+		2F6471412530BBDB0044A799 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2F6471422530BBF70044A799 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				2F6471352530BB740044A799 /* Main.storyboard */,
 				2F6471382530BB770044A799 /* Assets.xcassets */,
 				2F64713A2530BB770044A799 /* Info.plist */,
 			);
-			path = NinjaGo;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F6471432530BC160044A799 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F6471332530BB740044A799 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F6471452530BC260044A799 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2F6471312530BB740044A799 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2F64714B2530BFCE0044A799 /* MyUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2F64714D2530C08B0044A799 /* Characters */,
+				2F6471482530BFBF0044A799 /* SKColor+Ext.swift */,
+				2F647155253117FE0044A799 /* Ext+CGFloat.swift */,
+			);
+			path = MyUtils;
+			sourceTree = "<group>";
+		};
+		2F64714D2530C08B0044A799 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				2F64714E2530C0CA0044A799 /* Ground.swift */,
+				2F64715A25311BF00044A799 /* Cloud.swift */,
+				2F6471522530C5FD0044A799 /* Player.swift */,
+				2F5CBF5E25320E8400852658 /* HUD.swift */,
+				2F6C313D253387100038A5BF /* ScoreGenerator.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		2F64715D2531223D0044A799 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				2F64715E2531225D0044A799 /* Types.swift */,
+			);
+			name = Types;
+			path = MyUtils/Types;
+			sourceTree = "<group>";
+		};
+		CBF6EC5C33D010B31762DD34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4ABD4962F0C1737132D62A /* Pods_NinjaGo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F64713D2530BB770044A799 /* Build configuration list for PBXNativeTarget "NinjaGo" */;
 			buildPhases = (
+				387BDC2EE27A6198B753A498 /* [CP] Check Pods Manifest.lock */,
 				2F6471242530BB740044A799 /* Sources */,
 				2F6471252530BB740044A799 /* Frameworks */,
 				2F6471262530BB740044A799 /* Resources */,
+				E0ADBE336EC01A20178890B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,14 +251,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6C313B25332D170038A5BF /* Krungthep.ttf in Resources */,
 				2F6471372530BB740044A799 /* Main.storyboard in Resources */,
-				2F64712E2530BB740044A799 /* GameScene.sks in Resources */,
 				2F6471392530BB770044A799 /* Assets.xcassets in Resources */,
-				2F6471302530BB740044A799 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		387BDC2EE27A6198B753A498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NinjaGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0ADBE336EC01A20178890B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NinjaGo/Pods-NinjaGo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NinjaGo/Pods-NinjaGo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NinjaGo/Pods-NinjaGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F6471242530BB740044A799 /* Sources */ = {
@@ -142,8 +307,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F6471322530BB740044A799 /* GameScene.swift in Sources */,
+				2F5CBF5F25320E8400852658 /* HUD.swift in Sources */,
+				2F6471492530BFBF0044A799 /* SKColor+Ext.swift in Sources */,
 				2F6471342530BB740044A799 /* GameViewController.swift in Sources */,
+				2F55149E25362DB6002CFEF4 /* AdConfig.swift in Sources */,
+				2F647156253117FE0044A799 /* Ext+CGFloat.swift in Sources */,
 				2F64712C2530BB740044A799 /* AppDelegate.swift in Sources */,
+				2F6C313E253387100038A5BF /* ScoreGenerator.swift in Sources */,
+				2F64715B25311BF00044A799 /* Cloud.swift in Sources */,
+				2F64715F2531225D0044A799 /* Types.swift in Sources */,
+				2F6471532530C5FD0044A799 /* Player.swift in Sources */,
+				2F64714F2530C0CA0044A799 /* Ground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,17 +453,18 @@
 		};
 		2F64713E2530BB770044A799 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C717BA09D489FFCFC2836F56 /* Pods-NinjaGo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WU7C7C87E;
-				INFOPLIST_FILE = NinjaGo/Info.plist;
+				INFOPLIST_FILE = NinjaGo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dreamCapital.NinjaGo;
+				PRODUCT_BUNDLE_IDENTIFIER = dreamCapital.NinjaGo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,17 +473,18 @@
 		};
 		2F64713F2530BB770044A799 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3678E420A5572DAEBD1EE133 /* Pods-NinjaGo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WU7C7C87E;
-				INFOPLIST_FILE = NinjaGo/Info.plist;
+				INFOPLIST_FILE = NinjaGo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dreamCapital.NinjaGo;
+				PRODUCT_BUNDLE_IDENTIFIER = dreamCapital.NinjaGo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
