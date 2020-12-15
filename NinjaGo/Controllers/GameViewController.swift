@@ -24,7 +24,7 @@ class GameViewController: UIViewController, GADInterstitialDelegate {
         let scene = GameScene(size: CGSize(width: 2048.0, height: 1536.0))
         scene.scaleMode = .aspectFill
         let skView = view as! SKView
-        skView.showsFPS = false
+        skView.showsFPS = true
         skView.showsNodeCount = false
         skView.showsPhysics = false
         skView.ignoresSiblingOrder = true

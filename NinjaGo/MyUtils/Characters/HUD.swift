@@ -25,19 +25,32 @@ class HUD: SKNode {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+    func addHeart() {
+        var array = [SKSpriteNode]()
+        
+        guard let scene = scene as? GameScene else { return }
+        let iconSettings = SKSpriteNode(texture: SKTexture(image: UIImage(named: "heart")!), size: CGSize(width: 50, height: 50))
+        let pos = CGPoint(x: 60, y: scene.playRect.maxY - 120.0)
+        array = [iconSettings]
+        iconSettings.position = pos
+        addChild(iconSettings)
+    }
     
     func addLabel(_ name: String, text: String, fontSize: CGFloat, pos: CGPoint) {
         let label = SKLabelNode()
+        
         label.fontName = fontNamed
+        
         label.name = name
         label.text = text
         label.fontSize = fontSize
         label.position = pos
         label.zPosition = 50.0
         addChild(label)
+        
     }
     func setupScoreLbl(_ score: Int) {
+        addHeart()
         guard let scene = scene as? GameScene else { return }
         let pos = CGPoint(x: 30.0, y: scene.playRect.maxY - 30.0)
         addLabel(HUDSettings.score, text: "Score: \(score)", fontSize: 70.0, pos: pos)
@@ -56,6 +69,7 @@ class HUD: SKNode {
     func addLbl(fontSize: CGFloat, name: String, text: String) {
         guard let scene = scene as? GameScene else { return }
         let pos = CGPoint(x: scene.playRect.width/2.0, y: scene.playRect.height/2.0 + 400)
+        
         addLabel(name, text: text, fontSize: fontSize, pos: pos)
    
     }

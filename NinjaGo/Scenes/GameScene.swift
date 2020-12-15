@@ -150,11 +150,12 @@ extension GameScene {
         addChild(wall)
         wall.run(.sequence([.wait(forDuration: 8.0), .removeFromParent()]))
         // Score
-        let score = SKSpriteNode(texture: nil, color: .red, size: CGSize(width: 50.0, height: 50.0)).copy() as! SKSpriteNode
+        let score = SKSpriteNode(imageNamed: "gold")
+
         score.name = "Score"
         score.zPosition = 5.0
         let scorePosY = frame.height/2.0 + (value/2.0 * (-scale))
-        score.position = CGPoint(x: wall.position.x + score.frame.width, y: scorePosY)
+        score.position = CGPoint(x: wall.position.x + score.frame.width + 100, y: scorePosY  )
         score.physicsBody = SKPhysicsBody(rectangleOf: score.size)
         score.physicsBody!.isDynamic = false
         score.physicsBody!.categoryBitMask = PhysicsCategory.Score
@@ -239,6 +240,6 @@ extension GameScene: SKPhysicsContactDelegate {
             
         default: break
         }
-        
+       
     }
 }

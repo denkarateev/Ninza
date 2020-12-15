@@ -8,7 +8,6 @@
 import SpriteKit
 
 class Ground: SKSpriteNode {
-    
     init() {
         let texture = SKTexture(imageNamed: "ground")
         super.init(texture: texture, color: .clear, size: texture.size())
@@ -26,7 +25,7 @@ class Ground: SKSpriteNode {
 //MARK: - Configurations
 
 extension Ground {
-    
+   
     func setupGround(_ scene: SKScene) {
         for i in 0...2 {
             let ground = Ground()
@@ -35,6 +34,7 @@ extension Ground {
         }
     }
     func moveGround(_ scene: GameScene) {
+        
         scene.enumerateChildNodes(withName: "Ground") { (node, _) in
             let node = node as! SKSpriteNode
             node.position.x -= scene.moveSpeed
@@ -43,6 +43,7 @@ extension Ground {
                 node.position.x += scene.frame.size.width*2.0
             }
         }
+        
     }
 }
 
