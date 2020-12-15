@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>653646892848-1o6386auuucdbtmknut3d3jft6l0m1jh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.653646892848-1o6386auuucdbtmknut3d3jft6l0m1jh</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDRY9bNNM0aB2IO2E205ZQpVNMszn41JuA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>653646892848</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>dreamCapital.NinjaG22</string>
+	<key>PROJECT_ID</key>
+	<string>ninjago2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ninjago2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:653646892848:ios:b84a0c3a0de28f705942f5</string>
+	<key>DATABASE_URL</key>
+	<string>https://ninjago2.firebaseio.com</string>
+	<key>ADMOB_APP_ID</key>
+	<string>ca-app-pub-5424877058535869~3140170679</string>
+</dict>
+</plist>

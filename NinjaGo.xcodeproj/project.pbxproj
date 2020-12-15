@@ -22,6 +22,7 @@
 		2F64715F2531225D0044A799 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64715E2531225D0044A799 /* Types.swift */; };
 		2F6C313B25332D170038A5BF /* Krungthep.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBF612532105100852658 /* Krungthep.ttf */; };
 		2F6C313E253387100038A5BF /* ScoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C313D253387100038A5BF /* ScoreGenerator.swift */; };
+		2FB2DF06258839320011F92E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2DF05258839320011F92E /* GoogleService-Info.plist */; };
 		556FDF259BCFA437E96B6DCC /* Pods_NinjaGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4ABD4962F0C1737132D62A /* Pods_NinjaGo.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		2F64715A25311BF00044A799 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		2F64715E2531225D0044A799 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		2F6C313D253387100038A5BF /* ScoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGenerator.swift; sourceTree = "<group>"; };
+		2FB2DF05258839320011F92E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3678E420A5572DAEBD1EE133 /* Pods-NinjaGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaGo.release.xcconfig"; path = "Target Support Files/Pods-NinjaGo/Pods-NinjaGo.release.xcconfig"; sourceTree = "<group>"; };
 		7B4ABD4962F0C1737132D62A /* Pods_NinjaGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NinjaGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C717BA09D489FFCFC2836F56 /* Pods-NinjaGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaGo.debug.xcconfig"; path = "Target Support Files/Pods-NinjaGo/Pods-NinjaGo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				2F6471352530BB740044A799 /* Main.storyboard */,
 				2F6471382530BB770044A799 /* Assets.xcassets */,
+				2FB2DF05258839320011F92E /* GoogleService-Info.plist */,
 				2F64713A2530BB770044A799 /* Info.plist */,
 			);
 			path = Resources;
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F6C313B25332D170038A5BF /* Krungthep.ttf in Resources */,
+				2FB2DF06258839320011F92E /* GoogleService-Info.plist in Resources */,
 				2F6471372530BB740044A799 /* Main.storyboard in Resources */,
 				2F6471392530BB770044A799 /* Assets.xcassets in Resources */,
 			);

@@ -8,6 +8,7 @@
 import UIKit
 import GoogleMobileAds
 import YandexMobileMetrica
+import Firebase
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GADMobileAds.sharedInstance().start(completionHandler: nil)
         let configuration = YMMYandexMetricaConfiguration.init(apiKey: "67a608c2-64f8-433c-b7be-951daf85e5c9")
           YMMYandexMetrica.activate(with: configuration!)
+        FirebaseApp.configure()
+        
         return true
     }
 
