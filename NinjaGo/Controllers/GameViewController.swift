@@ -12,6 +12,7 @@ class GameViewController: UIViewController, GADInterstitialDelegate {
     var interstitial: GADInterstitial?
 
     override func viewDidLoad() {
+        
         // реклама
         super.viewDidLoad()
         interstitial = createInterstitial()

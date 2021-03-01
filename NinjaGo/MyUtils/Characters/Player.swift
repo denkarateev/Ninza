@@ -10,7 +10,7 @@ import SpriteKit
 class Player: SKSpriteNode {
     var isMoveDown = false
     init() {
-        let texture = SKTexture(imageNamed: "player1")
+        let texture = SKTexture(imageNamed: "player5")
         super.init(texture: texture, color: .clear, size: texture.size())
         name = "Player"
         zPosition = 1.0
@@ -37,7 +37,7 @@ extension Player {
     func setupAnim() {
         var textures: [SKTexture] = []
         
-        for i in 1...2 {
+        for i in 5...6 {
             textures.append(SKTexture(imageNamed: "player\(i)"))
         }
         

@@ -13,7 +13,7 @@ class GameScene: SKScene {
     
    
     //MARK: - Properties
-   
+    var pause = SKSpriteNode()
     var groundNode = Ground()
     var playerNode = Player()
     var cloud = Cloud()
@@ -63,7 +63,28 @@ class GameScene: SKScene {
         //        addChild(shape)
        adCount2 = 0
     }
+     func paused() {
+        pause = SKSpriteNode(imageNamed: "heart")
+        pause.position = CGPoint(x: 100, y: 200)
+        
+        addChild(pause)
+    }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        for touch in touches {
+            let location = touch.location(in: self)
+            
+        pause = SKSpriteNode(imageNamed: "pause")
+            pause.size = CGSize(width: 50, height: 50)
+            pause.position = CGPoint(x: 100, y: 400)
+        pause.name = "pause"
+        
+        addChild(pause)
+
+
+              if atPoint(location).name == "pause" {
+                isPaused = !isPaused
+              }
+        }
         super.touchesBegan(touches, with: event)
         guard let touch = touches.first else { return }
         let node = atPoint(touch.location(in: self))
@@ -84,6 +105,7 @@ class GameScene: SKScene {
         }
         
     }
+    
     override func update(_ currentTime: TimeInterval) {
         if gameState != .play {
             isPaused = true
@@ -193,7 +215,6 @@ extension GameScene {
         if UseIntestital  && (adCount4 % ADMOB_RATE == 0) {
             
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "presentInterstitial"), object: nil)
-
         }
 
 
@@ -212,6 +233,7 @@ extension GameScene {
 
 
     }
+
     
     }
 

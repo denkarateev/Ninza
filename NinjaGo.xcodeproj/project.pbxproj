@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F55149E25362DB6002CFEF4 /* AdConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F55149D25362DB6002CFEF4 /* AdConfig.swift */; };
 		2F5CBF5F25320E8400852658 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5CBF5E25320E8400852658 /* HUD.swift */; };
+		2F616F7A25BE1F65001403F7 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F616F7925BE1F65001403F7 /* MenuScene.swift */; };
 		2F64712C2530BB740044A799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64712B2530BB740044A799 /* AppDelegate.swift */; };
 		2F6471322530BB740044A799 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6471312530BB740044A799 /* GameScene.swift */; };
 		2F6471342530BB740044A799 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6471332530BB740044A799 /* GameViewController.swift */; };
@@ -30,6 +31,7 @@
 		2F55149D25362DB6002CFEF4 /* AdConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdConfig.swift; sourceTree = "<group>"; };
 		2F5CBF5E25320E8400852658 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		2F5CBF612532105100852658 /* Krungthep.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Krungthep.ttf; sourceTree = "<group>"; };
+		2F616F7925BE1F65001403F7 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		2F6471282530BB740044A799 /* NinjaGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F64712B2530BB740044A799 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F6471312530BB740044A799 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				2F55149D25362DB6002CFEF4 /* AdConfig.swift */,
+				2F616F7925BE1F65001403F7 /* MenuScene.swift */,
 			);
 			name = Config;
 			path = MyUtils/Config;
@@ -316,6 +319,7 @@
 				2F6471342530BB740044A799 /* GameViewController.swift in Sources */,
 				2F55149E25362DB6002CFEF4 /* AdConfig.swift in Sources */,
 				2F647156253117FE0044A799 /* Ext+CGFloat.swift in Sources */,
+				2F616F7A25BE1F65001403F7 /* MenuScene.swift in Sources */,
 				2F64712C2530BB740044A799 /* AppDelegate.swift in Sources */,
 				2F6C313E253387100038A5BF /* ScoreGenerator.swift in Sources */,
 				2F64715B25311BF00044A799 /* Cloud.swift in Sources */,

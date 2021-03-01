@@ -17,7 +17,6 @@ class HUD: SKNode {
     var scoreLabel: SKLabelNode!
     var highscoreLbl: SKLabelNode!
   //  var adCount6: Int = adCount4
-    
     override init() {
         super.init()
         adCount4 += 1
@@ -38,6 +37,7 @@ class HUD: SKNode {
     
     func addLabel(_ name: String, text: String, fontSize: CGFloat, pos: CGPoint) {
         let label = SKLabelNode()
+        
         
         label.fontName = fontNamed
         
