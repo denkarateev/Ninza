@@ -21,6 +21,9 @@
 		2F647156253117FE0044A799 /* Ext+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F647155253117FE0044A799 /* Ext+CGFloat.swift */; };
 		2F64715B25311BF00044A799 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64715A25311BF00044A799 /* Cloud.swift */; };
 		2F64715F2531225D0044A799 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F64715E2531225D0044A799 /* Types.swift */; };
+		2F6A862025EEFAAD0078603B /* da762dfb0301e63.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F6A861F25EEFAAD0078603B /* da762dfb0301e63.mp3 */; };
+		2F6A862325EF003C0078603B /* zvuk-najatiya-na-kopku-pauzyi-v-igre-4897.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F6A862225EF003C0078603B /* zvuk-najatiya-na-kopku-pauzyi-v-igre-4897.mp3 */; };
+		2F6A862625EF01940078603B /* telo-razletaetsya-na-melkie-kusochki-4935.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F6A862525EF01940078603B /* telo-razletaetsya-na-melkie-kusochki-4935.mp3 */; };
 		2F6C313B25332D170038A5BF /* Krungthep.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F5CBF612532105100852658 /* Krungthep.ttf */; };
 		2F6C313E253387100038A5BF /* ScoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C313D253387100038A5BF /* ScoreGenerator.swift */; };
 		2FB2DF06258839320011F92E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FB2DF05258839320011F92E /* GoogleService-Info.plist */; };
@@ -45,6 +48,9 @@
 		2F647155253117FE0044A799 /* Ext+CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+CGFloat.swift"; sourceTree = "<group>"; };
 		2F64715A25311BF00044A799 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		2F64715E2531225D0044A799 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		2F6A861F25EEFAAD0078603B /* da762dfb0301e63.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = da762dfb0301e63.mp3; sourceTree = "<group>"; };
+		2F6A862225EF003C0078603B /* zvuk-najatiya-na-kopku-pauzyi-v-igre-4897.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "zvuk-najatiya-na-kopku-pauzyi-v-igre-4897.mp3"; sourceTree = "<group>"; };
+		2F6A862525EF01940078603B /* telo-razletaetsya-na-melkie-kusochki-4935.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "telo-razletaetsya-na-melkie-kusochki-4935.mp3"; sourceTree = "<group>"; };
 		2F6C313D253387100038A5BF /* ScoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGenerator.swift; sourceTree = "<group>"; };
 		2FB2DF05258839320011F92E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3678E420A5572DAEBD1EE133 /* Pods-NinjaGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NinjaGo.release.xcconfig"; path = "Target Support Files/Pods-NinjaGo/Pods-NinjaGo.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				2F6471352530BB740044A799 /* Main.storyboard */,
+				2F6A862225EF003C0078603B /* zvuk-najatiya-na-kopku-pauzyi-v-igre-4897.mp3 */,
+				2F6A862525EF01940078603B /* telo-razletaetsya-na-melkie-kusochki-4935.mp3 */,
+				2F6A861F25EEFAAD0078603B /* da762dfb0301e63.mp3 */,
 				2F6471382530BB770044A799 /* Assets.xcassets */,
 				2FB2DF05258839320011F92E /* GoogleService-Info.plist */,
 				2F64713A2530BB770044A799 /* Info.plist */,
@@ -259,7 +268,10 @@
 			files = (
 				2F6C313B25332D170038A5BF /* Krungthep.ttf in Resources */,
 				2FB2DF06258839320011F92E /* GoogleService-Info.plist in Resources */,
+				2F6A862025EEFAAD0078603B /* da762dfb0301e63.mp3 in Resources */,
+				2F6A862325EF003C0078603B /* zvuk-najatiya-na-kopku-pauzyi-v-igre-4897.mp3 in Resources */,
 				2F6471372530BB740044A799 /* Main.storyboard in Resources */,
+				2F6A862625EF01940078603B /* telo-razletaetsya-na-melkie-kusochki-4935.mp3 in Resources */,
 				2F6471392530BB770044A799 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -52,8 +52,9 @@ class GameScene: SKScene {
             setupNodes()
             setupPhysics()
             gameState = .start
-           
-            
+            let backgroundSound = SKAudioNode(fileNamed: "da762dfb0301e63.mp3")
+            self.addChild(backgroundSound)
+
             
         }
         
@@ -63,12 +64,12 @@ class GameScene: SKScene {
         //        addChild(shape)
        adCount2 = 0
     }
-     func paused() {
-        pause = SKSpriteNode(imageNamed: "heart")
-        pause.position = CGPoint(x: 100, y: 200)
-        
-        addChild(pause)
-    }
+//     func paused() {
+//        pause = SKSpriteNode(imageNamed: "heart")
+//        pause.position = CGPoint(x: 100, y: 200)
+//
+//        addChild(pause)
+//    }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
             let location = touch.location(in: self)
@@ -78,7 +79,7 @@ class GameScene: SKScene {
             pause.position = CGPoint(x: 100, y: 400)
         pause.name = "pause"
         
-        addChild(pause)
+//        addChild(pause)
 
 
               if atPoint(location).name == "pause" {
@@ -211,13 +212,12 @@ extension GameScene {
     func gameOver() {
         // реклама
        
-        
         if UseIntestital  && (adCount4 % ADMOB_RATE == 0) {
-            
+          
             NotificationCenter.default.post(name: NSNotification.Name(rawValue: "presentInterstitial"), object: nil)
         }
-
-
+        
+        
         playerNode.removeFromParent()
         wallTimer?.invalidate()
         cloudTimer?.invalidate()
@@ -228,24 +228,33 @@ extension GameScene {
             ScoreGenerator.sharedInstance.setHighscore(numScore)
         }
        
-        print(adCount4)
 
 
 
     }
 
-    
+   
+        
     }
 
 //MARK: - SKPhysicsContactDelegate
 extension GameScene: SKPhysicsContactDelegate {
     func didBegin(_ contact: SKPhysicsContact) {
         let other = contact.bodyA.categoryBitMask == PhysicsCategory.Player ? contact.bodyB : contact.bodyA
+        
         switch other.categoryBitMask {
         case PhysicsCategory.Wall:
-            gameOver()
+     
+                gameOver()
+                
+          
+            let backgroundSound = SKAction.playSoundFileNamed("zvuk-najatiya-na-kopku-pauzyi-v-igre-4897", waitForCompletion: true)
+            run(backgroundSound)
+        
         case PhysicsCategory.Score:
             if let node = other.node {
+                let backgroundSound = SKAction.playSoundFileNamed("zvuk-najatiya-na-kopku-pauzyi-v-igre-4897", waitForCompletion: true)
+               run(backgroundSound)
                 numScore += 1
                 
                 hud.scoreLabel.text = "Очки: \(numScore)"
@@ -257,6 +266,7 @@ extension GameScene: SKPhysicsContactDelegate {
                     //                    print(valueTime2)
                   //  setupTimer()
                 }
+                
                 node.removeFromParent()
             }
             
